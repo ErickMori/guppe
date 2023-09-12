@@ -136,7 +136,7 @@ curso = '-'.join(curso)
 print(curso)
 
 """Iterando sobre lista"""
-#Exemplo 1 - Utilizando for
+# Exemplo 1 - Utilizando for
 
 soma = 0
 for elemento in lista4:
@@ -144,7 +144,7 @@ for elemento in lista4:
     soma = soma + elemento
 print(soma)
 
-#Exemplo 2 = Utilizando while
+# Exemplo 2 = Utilizando while
 carrinho = []
 produto = ''
 
@@ -173,10 +173,10 @@ print(numeros)
 """ Em listas fazemos acesso aos elementos de forma indexada """
 #           0         1        2        3
 cores = ['verde', 'amarelo', 'azul', 'branco']
-print(cores[0]) #Verde
+print(cores[0])  # Verde
 
 """ Fazer acesso aos elementos de forma indexada inversa """
-print(cores[-2]) #Azul
+print(cores[-2])  # Azul
 
 for cor in cores:
     print(cor)
@@ -199,26 +199,26 @@ carros = ["Uracan", "911", "Veyron", "Regera", "Uracan"]
 encontrado = carros.index("Veyron")
 print(f'Carro encontrado {encontrado}')
 
-#procurar a partir de index predefinido index(valor_procurado, index_inicial)
+# procurar a partir de index predefinido index(valor_procurado, index_inicial)
 
 print(carros.index("Uracan", 1))
 
-#procurar dentro de um range predefinido index(valor_procurado, index_inicial, index_final)
+# procurar dentro de um range predefinido index(valor_procurado, index_inicial, index_final)
 
 print(carros.index("Uracan", 1, 5))
 
 """ Trabalhando com slice de lista com parametros de inicio ou fim """
 
 sequencia = [1, 2, 3, 4, 5, 6]
-print(sequencia[1:]) # Iniciando no index 1 até todos os elementos restantes
-print(sequencia[:2]) # começa no index 0 e vai até o index 2
-print(sequencia[1:3]) # comeca no index 1 e vai até o index 3
+print(sequencia[1:])  # Iniciando no index 1 até todos os elementos restantes
+print(sequencia[:2])  # começa no index 0 e vai até o index 2
+print(sequencia[1:3])  # comeca no index 1 e vai até o index 3
 
 # Utilizar o passo do slice na lista
 
-print(sequencia[1::2]) # Começa no index 1 e vai até o final de 2 em 2
-print(sequencia[::2]) # Começa no index 0 e vai até o final de 2 em 2
-print(sequencia[4::-1]) # Comeca no index 4 e vai até o 0 de 1 em 1
+print(sequencia[1::2])  # Começa no index 1 e vai até o final de 2 em 2
+print(sequencia[::2])  # Começa no index 0 e vai até o final de 2 em 2
+print(sequencia[4::-1])  # Comeca no index 4 e vai até o 0 de 1 em 1
 
 """ Inverter valores em uma lista (o melhor é utlizar o reverse(), mas o codigo abaixo funciona """
 nomes = ['Geek', 'University']
@@ -229,10 +229,10 @@ print(nomes)
 * Somente para valores inteiros ou reais"""
 
 numerais = [1, 2, 3, 4, 5, 6]
-print(sum(numerais)) # Soma
-print(max(numerais)) # Valor maximo
-print(min(numerais)) # Valor minimo
-print(len(numerais)) # Tamanho da lista
+print(sum(numerais))  # Soma
+print(max(numerais))  # Valor maximo
+print(min(numerais))  # Valor minimo
+print(len(numerais))  # Tamanho da lista
 
 """ Transformar uma lista em tupla """
 print(numerais)
@@ -256,7 +256,7 @@ print(num3)
 lista10 = [1, 2, 3]
 print(lista10)
 
-nova = lista10.copy() #cópia
+nova = lista10.copy()  # cópia
 print(nova)
 
 nova.append(4)
@@ -270,10 +270,10 @@ print(nova)
 lista11 = [1, 2, 3]
 print(lista11)
 
-nova2 = lista11 #cópia
+nova2 = lista11  # cópia
 print(nova2)
 
-nova2.append(4) # aqui será modificado a lista11 e a nova2
+nova2.append(4)  # aqui será modificado a lista11 e a nova2
 print(lista11)
 print(nova2)
 
