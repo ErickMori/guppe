@@ -30,7 +30,7 @@ print(paises['br'])
 
 # Acessando elementos = Acessando via get (RECOMENDADO) - Retorna None ao invés de KeyError
 print(paises.get('br'))
-print(paises.get('ru')) # Caso não encontre é retornado None
+print(paises.get('ru'))  # Caso não encontre é retornado None
 
 russia = paises.get('ru')
 if russia:
@@ -47,15 +47,15 @@ else:
 # Define um valor caso não for encontrado a chave 'ru', retorna 'Não encontrado'
 
 pais = paises.get('ru', 'Russia: Não encontrado')
-print(pais) # Retornará "Russia: não encontrado"
+print(pais)  # Retornará "Russia: não encontrado"
 
 # Procurar chave no dicionario - Não busca por valor de chave
 
-print('br' in paises) # True
-print('ru' in paises) # False
-print('Estados Unidos' in paises) # False
+print('br' in paises)  # True
+print('ru' in paises)  # False
+print('Estados Unidos' in paises)  # False
 
-if('ru' in paises):
+if 'ru' in paises:
     russia = paises['ru']
     print(russia)
 
@@ -75,12 +75,12 @@ print(type(localidades))
 # Forma 1 - Mais comum
 receita = {'jan': 100, 'fev': 120, 'mar': 300}
 print(receita)
-receita['abr'] = 350 # Informando valor a ser adicionado
+receita['abr'] = 350  # Informando valor a ser adicionado
 print(receita)
 
 # Forma 1 - Utilizando com update()
 novo_dado = {'mai': 500}
-receita.update(novo_dado) # receita.update({'mai': 500})
+receita.update(novo_dado)  # receita.update({'mai': 500})
 print(receita)
 
 # Atualizar dados em um dicionario
@@ -105,12 +105,12 @@ print(receita)
 
 # Forma 2 com pop('chave') retornando o valor da chave excluida
 ret = receita.pop('abr')
-print(ret) # Mostra o valor da chave excluida
+print(ret)  # Mostra o valor da chave excluida
 print(receita)
 
 # Forma 3 com del
 
-del receita['fev'] # Retorna KeyError caso não encontrar a chave ['fev'] EXISTE neste exemplo, não retornará erro
+del receita['fev']  # Retorna KeyError caso não encontrar a chave ['fev'] EXISTE neste exemplo, não retornará erro
 print(receita)
 
 # Imagine a seguinte situação em um comércio elêtronico, onde no carrinho de compras adicionamos.
@@ -167,7 +167,7 @@ print(d)
 # Copiando um dicionario para outro utilizando copy()
 # Forma 1 - Deep Copy
 d = dict(a=1, b=2, c=3)
-novo = d.copy() # Deep Copy
+novo = d.copy()  # Deep Copy
 print(novo)
 novo['d'] = 4
 print(d)
@@ -177,7 +177,7 @@ print(novo)
 
 d = dict(a=1, b=2, c=3)
 print(d)
-novo1 = d # Shallow Copy
+novo1 = d  # Shallow Copy
 novo1['d'] = 4
 print(d)
 print(novo1)
@@ -190,11 +190,13 @@ outro = {}.fromkeys('a', 'b')
 print(outro)
 
 usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
-print(usuario) # Ira retornar {'nome': 'desconhecido', 'pontos': 'desconhecido', 'email': 'desconhecido', 'profile': 'desconhecido'}
+print(usuario)  # Ira retornar {'nome': 'desconhecido', 'pontos': 'desconhecido',
+# 'email': 'desconhecido', 'profile': 'desconhecido'}
 print(type(usuario))
 
 veja = {}.fromkeys('teste', 'valor')
-print(veja) # Ira retornar {'t': 'valor', 'e': 'valor', 's': 'valor'} # Gerar chaves para cada letra sem repetição e atribui o valor (valor) para cada
+print(veja)  # Ira retornar {'t': 'valor', 'e': 'valor', 's': 'valor'}
+# Gerar chaves para cada letra sem repetição e atribui o valor (valor) para cada
 
-veja = {}.fromkeys(range(1, 11), 'novo') # Ira retornar {1: 'novo', 2: 'novo', 3: 'novo', ...}
+veja = {}.fromkeys(range(1, 11), 'novo')  # Ira retornar {1: 'novo', 2: 'novo', 3: 'novo', ...}
 print(veja)
