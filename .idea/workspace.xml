@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03bf28a4-9ec1-4f2e-b7cc-edcbc19dec3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/colecoes/deque.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colecoes/named_tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funcoes/funcoes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funcoes/funcoes_parametros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/funcoes/funcoes_retorno.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/funcoes/funcoes_parametros_padrao.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/and_or_not_is.py" beforeDir="false" afterPath="$PROJECT_DIR$/logica e condicoes/and_or_not_is.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conjuntos.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/conjuntos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/default_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/default_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dicionarios.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/dicionarios.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if_else_elif.py" beforeDir="false" afterPath="$PROJECT_DIR$/logica e condicoes/if_else_elif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/listas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop_for.py" beforeDir="false" afterPath="$PROJECT_DIR$/estruturas repeticao/loop_for.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop_while.py" beforeDir="false" afterPath="$PROJECT_DIR$/estruturas repeticao/loop_while.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapas.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/mapas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ordered_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/ordered_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuplas.py" beforeDir="false" afterPath="$PROJECT_DIR$/colecoes/tuplas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/funcoes/funcoes_parametros.py" beforeDir="false" afterPath="$PROJECT_DIR$/funcoes/funcoes_parametros.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
